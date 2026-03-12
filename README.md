@@ -3,11 +3,11 @@ _Local, Cloud & Multi-language monitoring application for Izypower Titan batteri
 
 <div align="center">
 
-<img src="images/Screenshot_20260312_170445_Izypower Titan Buddy.jpg" width="400">
-<img src="images/Screenshot_20260312_170458_Izypower Titan Buddy.jpg" width="400">
-<img src="images/Screenshot_20260312_170517_Izypower Titan Buddy.jpg" width="400"><br>
-<img src="images/Screenshot_20260312_170707_Izypower Titan Buddy.jpg" width="400">
-<img src="images/Screenshot_20260312_170716_Izypower Titan Buddy.jpg" width="400">
+<img src="images/Screenshot_20260312_170445_Izypower Titan Buddy.jpg" width="250">
+<img src="images/Screenshot_20260312_170458_Izypower Titan Buddy.jpg" width="250">
+<img src="images/Screenshot_20260312_170517_Izypower Titan Buddy.jpg" width="250"><br>
+<img src="images/Screenshot_20260312_170707_Izypower Titan Buddy.jpg" width="250">
+<img src="images/Screenshot_20260312_170716_Izypower Titan Buddy.jpg" width="250">
 
 </div>
 
