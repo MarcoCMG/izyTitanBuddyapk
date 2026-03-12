@@ -19,6 +19,19 @@ _Local, Cloud & Multi-language monitoring application for Izypower Titan batteri
 ### Description  
 Application de monitoring locale et cloud pour les batteries **Izypower Titan**.  
 
+### Nouveautés v0.48-BETA
+
+1.
+Graphique Réseau : Affichage explicite du signe et libellés "Conso Réseau" / "Injection".
+2.
+Tableaux d'Énergie : Réactivation des cartes Solaire (détail des 4 PV) et Flux (AC Entrée/Sortie, Compteur, Bypass).
+3.
+Totaux Énergie : Ajout des compteurs d'import/export cumulés (kWh) dans la carte Système.
+4.
+Infos IP : L'adresse IP locale est maintenant affichée dans les informations système.
+
+
+
 ### Nouveautés v0.4-BETA  
 - **Notifications de Batterie Pleine** : Soyez prévenu dès qu'une batterie Titan atteint 100%.  
 - **Alertes SOC Minimum** : Configurez un seuil d'alerte (entre 5% et 80%) pour être averti quand votre batterie est faible.  
