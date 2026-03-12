@@ -1,8 +1,8 @@
-# Izypower Titan Buddy Connect v0.4-BETA  
+# Izypower Titan Buddy Connect v0.4-BETA  <img src="images/splash.png" width="100">
 _Local, Cloud & Multi-language monitoring application for Izypower Titan batteries._
 
 <div align="center">
-<img src="images/splash.png" width="100">
+
 <img src="images/Screenshot_20260312_170445_Izypower Titan Buddy.jpg" width="250">
 <img src="images/Screenshot_20260312_170458_Izypower Titan Buddy.jpg" width="250">
 <img src="images/Screenshot_20260312_170517_Izypower Titan Buddy.jpg" width="250"><br>
