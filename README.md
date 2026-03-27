@@ -15,7 +15,7 @@ Shelly Pro 3EM / Shelly 3EM.
 Onduleurs : Micro-onduleurs Deye (et compatibles Solarman).
 
 [!CAUTION]
-Incompatibilité : Ce système ne fonctionne pas avec le Smartmeter IA ni le Smartmeter Solarman.
+Incompatibilité : Ce système ne fonctionne pas avec le Smartmeter IA ni le Smartmeter Solarman ni avec les micro onduleurs Izypower.
 
 🚀 Fonctionnalités Principales
 📊 Monitoring Temps Réel (Local)
