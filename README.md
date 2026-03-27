@@ -1,98 +1,66 @@
-<img src="images/splash.png" width="100"> # Izypower Titan Buddy Connect v0.4-BETA  
-_Local, Cloud & Multi-language monitoring application for Izypower Titan batteries._
+⚡ Titan Buddy Connect v0.5
+Titan Buddy Connect est l'application compagnon ultime pour la gestion locale de votre écosystème énergétique Izypower. Elle permet de surveiller et de contrôler vos batteries Titan ainsi que vos onduleurs compatibles (Deye, Solarman) en temps réel, directement via votre réseau domestique.
 
-<div align="center">
+🛠 Matériel Requis & Compatibilité
+L'application communique exclusivement en local avec les équipements suivants :
 
-<img src="images/Screenshot_20260312_170445_Izypower Titan Buddy.jpg" width="250">
-<img src="images/Screenshot_20260312_170458_Izypower Titan Buddy.jpg" width="250">
-<img src="images/Screenshot_20260312_170517_Izypower Titan Buddy.jpg" width="250"><br>
-<img src="images/Screenshot_20260312_170707_Izypower Titan Buddy.jpg" width="250">
-<img src="images/Screenshot_20260312_170716_Izypower Titan Buddy.jpg" width="250">
+Batterie : Izypower Titan.
 
-</div>
+Compteurs (Smartmeters) :
+
+Izypower MR1.
+
+Shelly Pro 3EM / Shelly 3EM.
+
+Onduleurs : Micro-onduleurs Deye (et compatibles Solarman).
+
+[!CAUTION]
+Incompatibilité : Ce système ne fonctionne pas avec le Smartmeter IA ni le Smartmeter Solarman.
+
+🚀 Fonctionnalités Principales
+📊 Monitoring Temps Réel (Local)
+Tableau de bord complet : Visualisez instantanément la production solaire, l'état de charge de la batterie (SOC), et la consommation de votre foyer sans dépendre d'un serveur tiers.
+
+Flux d'énergie : Schéma dynamique montrant la circulation de l'énergie entre les panneaux PV, la batterie et le réseau.
+
+Détails Inverteur : Monitoring précis des entrées PV (Tension, Courant, Puissance par string) pour les onduleurs Deye/Solarman.
+
+🔔 Système d'Alertes Intelligent
+Notifications de charge : Recevez une alerte dès que votre batterie atteint 100%.
+
+Protection décharge : Configurez un seuil critique (ex: 20%) pour être averti avant la coupure.
+
+Alarmes système : Alertes immédiates en cas de surchauffe ou d'anomalie détectée par l'onduleur.
+
+🔍 Connectivité & Confidentialité
+Scan Local Auto : Découverte automatique de vos appareils Titan et Solarman sur votre réseau Wi-Fi (via les ports 8080 et 8899).
+
+Zéro Cloud : Toutes vos données restent au sein de votre réseau local. Pas d'accès externe, pour une sécurité et une confidentialité totales.
+
+Support Multi-Appareils : Gérez plusieurs batteries et onduleurs au sein d'une seule interface centralisée.
+
+🌍 Expérience Utilisateur
+Multilingue : Disponible en Français, Anglais, Allemand et Chinois.
+
+Design Moderne : Interface fluide construite avec React et Shadcn UI, optimisée pour le mode sombre/clair.
+
+Prévisions Solaires : Intégration de prévisions locales pour anticiper votre production (selon configuration).
 
 
----
 
-## 🇫🇷 Français  
+🛠 Configuration Technique & Détection
+L'application utilise un algorithme de balayage réseau pour identifier vos équipements sans intervention manuelle complexe.
 
-### Description  
-Application de monitoring locale pour les batteries **Izypower Titan**.  
+🔍 Mécanisme de Scan Local
+Pour que vos appareils soient détectés, assurez-vous qu'ils sont connectés au même sous-réseau (Wi-Fi ou Ethernet) que l'appareil lançant l'application. Titan Buddy Connect scanne votre plage d'adresses IP locale (ex: 192.168.1.0/24) sur les ports de communication dédiés :
 
-### Nouveautés v0.47-BETA
+Port 8080 : Interface de communication des batteries Titan.
 
-1.
-Graphique Réseau : Affichage explicite du signe et libellés "Conso Réseau" / "Injection".
-2.
-Tableaux d'Énergie : Réactivation des cartes Solaire (détail des 4 PV) et Flux (AC Entrée/Sortie, Compteur, Bypass).
-3.
-Totaux Énergie : Ajout des compteurs d'import/export cumulés (kWh) dans la carte Système.
-4.
-Infos IP : L'adresse IP locale est maintenant affichée dans les informations système.
+Port 8899 : Interface de données (TCP) des micro-onduleurs Deye / Solarman.
 
+⚙️ Conseils pour une Stabilité Optimale
+IP Statiques : Il est vivement recommandé d'assigner des adresses IP fixes (Baux DHCP statiques) à votre batterie Titan et à votre micro-onduleur via l'interface de votre box/routeur. Cela évite de perdre la connexion lors d'un redémarrage du routeur.
 
+Isolation AP (Point d'Accès) : Vérifiez que votre routeur n'isole pas les clients Wi-Fi entre eux. L'option "AP Isolation" doit être désactivée pour que l'application puisse interroger les Smartmeters (Shelly/MR1) et la batterie.
 
-### Nouveautés v0.4-BETA  
-- **Notifications de Batterie Pleine** : Soyez prévenu dès qu'une batterie Titan atteint 100%.  
-- **Alertes SOC Minimum** : Configurez un seuil d'alerte (entre 5% et 80%) pour être averti quand votre batterie est faible.  
-- **Gestion Multi-Titan** : Paramétrez des alertes individuelles pour chaque appareil.  
-
-### Technologies  
-- **API** : Intégration locale (port 8080) et Cloud Izypower.  
-
-### Licence  
-Propriété d'Izy Communauté Power. (Mars 2026)
-
----
-
-## 🇬🇧 English  
-
-### Description  
-Local and cloud monitoring app for **Izypower Titan batteries**.  
-
-### What's New in v0.4-BETA  
-- **Full Battery Notifications**: Get notified when a Titan battery reaches 100%.  
-- **Minimum SOC Alerts**: Set an alert threshold (5%–80%) to be warned when your battery is low.  
-- **Multi-Titan Management**: Configure individual alerts for each device.  
-
-### Technologies  
-- **API**: Local integration (port 8080) and Izypower Cloud.  
-
-### License  
-Property of Izy Communauté Power. (March 2026)
-
----
-
-## 🇩🇪 Deutsch  
-
-### Beschreibung  
-Lokale und Cloud-Überwachungsanwendung für **Izypower Titan-Batterien**.  
-
-### Neu in Version 0.4-BETA  
-- **Benachrichtigung bei voller Batterie**: Nachricht, sobald eine Titan-Batterie 100 % erreicht.  
-- **Minimale SOC-Warnungen**: Schwellenwert (5 %–80 %) festlegen, um gewarnt zu werden, wenn der Batteriestand niedrig ist.  
-- **Multi-Titan-Verwaltung**: Individuelle Warnungen für jedes Gerät einrichten.  
-
-### Technologien  
-- **API**: Lokale Integration (Port 8080) et Izypower Cloud.  
-
-### Lizenz  
-Eigentum von Izy Communauté Power. (März 2026)
-
----
-
-## 🇨🇳 中文（简体）  
-
-### 说明  
-适用于 **Izypower Titan 电池** 的本地与云端监控应用。  
-
-### v0.4-BETA 新功能
-- **电池充满通知**：当 Titan 电池达到 100% 时通知您。  
-- **最低 SOC 警报**：可设置阈值 (5%–80%)，当电量过低时提醒您。  
-- **多电池管理**：为每个设备分别设置提醒。  
-
-### 技术  
-- **API**：本地集成（端口 8080）与 Izypower 云端。  
-
-### 许可  
-Izy Communauté Power 版权所有。(2026 年 3 月)
+Qualité du Signal : Pour une remontée de données fluide (toutes les secondes), assurez-vous que les Smartmeters Shelly ou MR1 captent correctement votre signal Wi-Fi.
