@@ -17,7 +17,7 @@ _Local, Cloud & Multi-language monitoring application for Izypower Titan batteri
 ## 🇫🇷 Français  
 
 ### Description  
-Application de monitoring locale et cloud pour les batteries **Izypower Titan**.  
+Application de monitoring locale pour les batteries **Izypower Titan**.  
 
 ### Nouveautés v0.47-BETA
 
