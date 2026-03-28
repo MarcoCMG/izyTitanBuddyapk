@@ -8,14 +8,18 @@ Batterie : Izypower Titan.
 
 Compteurs (Smartmeters) :
 
-Izypower MR1.
+MR1.
 
 Shelly Pro 3EM / Shelly 3EM.
 
-Onduleurs : Micro-onduleurs Deye (et compatibles Solarman).
+Microonduleurs : Micro-onduleurs Deye (et compatibles Solarman).
+
+Vous n'avez pas tout ce matériel ? Vous pouvez tout de même télécharger et lancer l'application pour explorer l'interface et découvrir les fonctionnalités. Notez simplement que sans ces appareils connectés, les données en temps réel et certaines options d'optimisation ne seront pas actives.
 
 [!CAUTION]
-Incompatibilité : Ce système ne fonctionne pas avec le Smartmeter IA ni le Smartmeter Solarman ni avec les micro onduleurs Izypower.
+Incompatibilité (temporaire): Ce système ne fonctionne pas avec le Smartmeter IA ni les Smartmeter Solarman ancien ni avec les micro onduleurs Izypower, pas pour le moment! 
+[!IMPORTANT]
+Le support de ces matériels est actuellement en cours de développement. Suivez les prochaines mises à jour et soyez averti dès qu'ils seront compatibles !
 
 🚀 Fonctionnalités Principales
 📊 Monitoring Temps Réel (Local)
