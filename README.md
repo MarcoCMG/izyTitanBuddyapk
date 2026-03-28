@@ -37,7 +37,7 @@ Protection décharge : Configurez un seuil critique (ex: 20%) pour être averti 
 Alarmes système : Alertes immédiates en cas de surchauffe ou d'anomalie détectée par l'onduleur.
 
 🔍 Connectivité & Confidentialité
-Scan Local Auto : Découverte automatique de vos appareils Titan et Solarman sur votre réseau Wi-Fi (via les ports 8080 et 8899).
+Scan Local Auto : Découverte automatique de vos appareils Titan et Deye sur votre réseau Wi-Fi (via les ports 8080 et 8899).
 
 Zéro Cloud : Toutes vos données restent au sein de votre réseau local. Pas d'accès externe, pour une sécurité et une confidentialité totales.
 
