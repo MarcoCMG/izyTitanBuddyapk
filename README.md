@@ -1,70 +1,54 @@
-⚡ Titan Buddy Connect v0.5
-Titan Buddy Connect est l'application compagnon ultime pour la gestion locale de votre écosystème énergétique Izypower. Elle permet de surveiller et de contrôler vos batteries Titan ainsi que vos onduleurs compatibles (Deye, Solarman) en temps réel, directement via votre réseau domestique.
+# Izypower Titan Buddy Connect v0.506-STABLE  
+_Application de monitoring local et multi-langue pour les batteries Izypower Titan._
 
-🛠 Matériel Requis & Compatibilité
-L'application communique exclusivement en local avec les équipements suivants :
+---
 
-Batterie : Izypower Titan.
+## 🇫🇷 Français  
 
-Compteurs (Smartmeters) :
+### Description  
+**Izypower Titan Buddy Connect** est une solution complète de monitoring et de gestion **100% locale** pour votre écosystème énergétique. Elle permet de surveiller en temps réel vos batteries **Izypower Titan** et vos onduleurs **Deye/Solarman** directement sur votre réseau Wi-Fi local. L'application offre une interface intuitive pour optimiser votre autoconsommation, suivre votre production solaire et protéger vos équipements grâce à un système d'alertes intelligent, sans aucune dépendance à un serveur externe pour vos données de puissance.
 
-MR1.
+### Nouveautés v0.506  
+- **Mode Paysage (Landscape)** : Support complet pour tablettes et supports voiture.  
+- **Widget d'accueil** : Suivi en temps réel du SOC moyen, de la puissance totale et de la production solaire directement sur votre écran d'accueil.  
+- **Alarme Température** : Recevez des notifications en cas de surchauffe sur vos batteries Titan (seuil configurable).  
+- **Bridage Inverter (Power Limit)** : Contrôlez la limite de puissance de vos onduleurs Deye/Solarman directement depuis l'application.  
+- **Notifications avancées** : Alertes de batterie pleine et de SOC minimum configurable par appareil.  
 
-Shelly Pro 3EM / Shelly 3EM.
+### Fonctionnalités Clés
+- **Souveraineté des Données** : Fonctionne exclusivement en local sur votre réseau Wi-Fi.
+- **Découverte Automatique** : Scan de votre réseau pour trouver vos appareils Titan et Deye en un clic.
+- **Tableau de Bord Global** : Vue d'ensemble de la puissance cumulée, de l'état de charge (SOC) et des flux d'énergie.
+- **Prévisions Solaires** : Intégration de Forecast.solar pour anticiper votre production des prochains jours.
+- **Multi-langue** : Support du Français, Anglais, Allemand et Chinois.
 
-Microonduleurs : Micro-onduleurs Deye (et compatibles Solarman).
+---
 
-Vous n'avez pas tout ce matériel ? Vous pouvez tout de même télécharger et lancer l'application pour explorer l'interface et découvrir les fonctionnalités. Notez simplement que sans ces appareils connectés, les données en temps réel et certaines options d'optimisation ne seront pas actives.
+## 🇬🇧 English  
 
-[!CAUTION]
-Incompatibilité (temporaire): Ce système ne fonctionne pas avec le Smartmeter IA ni les Smartmeter Solarman ancien ni avec les micro onduleurs Izypower, pas pour le moment! 
-[!IMPORTANT]
-Le support de ces matériels est actuellement en cours de développement. Suivez les prochaines mises à jour et soyez averti dès qu'ils seront compatibles !
+### Description  
+**Izypower Titan Buddy Connect** is a comprehensive **100% local** monitoring and management solution for your energy ecosystem. It allows you to monitor your **Izypower Titan** batteries and **Deye/Solarman** inverters in real-time directly on your local Wi-Fi network. The app provides an intuitive interface to optimize your self-consumption, track solar production, and protect your equipment with a smart alert system, with zero reliance on any external server for your power data.
 
-🚀 Fonctionnalités Principales
-📊 Monitoring Temps Réel (Local)
-Tableau de bord complet : Visualisez instantanément la production solaire, l'état de charge de la batterie (SOC), et la consommation de votre foyer sans dépendre d'un serveur tiers.
+### What's New in v0.506  
+- **Landscape Mode**: Full support for tablets and car mounts.  
+- **Home Widget**: Real-time tracking of average SOC, total power, and solar production directly on your home screen.  
+- **Temperature Alarm**: Get notifications for overheating on your Titan batteries (configurable threshold).  
+- **Inverter Power Limit**: Control the power limit of your Deye/Solarman inverters directly from the app.  
 
-Flux d'énergie : Schéma dynamique montrant la circulation de l'énergie entre les panneaux PV, la batterie et le réseau.
+---
 
-Détails Inverteur : Monitoring précis des entrées PV (Tension, Courant, Puissance par string) pour les onduleurs Deye/Solarman.
+## 🇩🇪 Deutsch  
 
-🔔 Système d'Alertes Intelligent
-Notifications de charge : Recevez une alerte dès que votre batterie atteint 100%.
+### Beschreibung  
+**Izypower Titan Buddy Connect** ist eine umfassende **100% lokale** Überwachungs- und Managementlösung für Ihr Energie-Ökosystem. Sie ermöglicht die Echtzeit-Überwachung Ihrer **Izypower Titan-Batterien** und **Deye/Solarman-Wechselrichter** direkt in Ihrem lokalen WLAN-Netzwerk. Die App bietet eine intuitive Benutzeroberfläche zur Optimierung Ihres Eigenverbrauchs, zur Verfolgung der Solarproduktion und zum Schutz Ihrer Geräte durch ein intelligentes Warnsystem – völlig ohne Abhängigkeit von externen Servern für Ihre Leistungsdaten.
 
-Protection décharge : Configurez un seuil critique (ex: 20%) pour être averti avant la coupure.
+---
 
-Alarmes système : Alertes immédiates en cas de surchauffe ou d'anomalie détectée par l'onduleur.
+## 🇨🇳 中文（简体）  
 
-🔍 Connectivité & Confidentialité
-Scan Local Auto : Découverte automatique de vos appareils Titan et Deye sur votre réseau Wi-Fi (via les ports 8080 et 8899).
+### 说明  
+**Izypower Titan Buddy Connect** 是为您能源生态系统提供的全面 **100% 本地** 监控和管理解决方案。它允许您直接在本地 Wi-Fi 网络中实时监控 **Izypower Titan** 电池和 **德业 (Deye/Solarman)** 逆变器。该应用程序提供直观的界面，可优化您的自发自用、跟踪太阳能产量，并通过智能警报系统保护您的设备，完全不依赖外部服务器获取功率数据。
 
-Zéro Cloud : Toutes vos données restent au sein de votre réseau local. Pas d'accès externe, pour une sécurité et une confidentialité totales.
+---
 
-Support Multi-Appareils : Gérez plusieurs batteries et onduleurs au sein d'une seule interface centralisée.
-
-🌍 Expérience Utilisateur
-Multilingue : Disponible en Français, Anglais, Allemand et Chinois.
-
-Design Moderne : Interface fluide construite avec React et Shadcn UI, optimisée pour le mode sombre/clair.
-
-Prévisions Solaires : Intégration de prévisions locales pour anticiper votre production (selon configuration).
-
-
-
-🛠 Configuration Technique & Détection
-L'application utilise un algorithme de balayage réseau pour identifier vos équipements sans intervention manuelle complexe.
-
-🔍 Mécanisme de Scan Local
-Pour que vos appareils soient détectés, assurez-vous qu'ils sont connectés au même sous-réseau (Wi-Fi ou Ethernet) que l'appareil lançant l'application. Titan Buddy Connect scanne votre plage d'adresses IP locale (ex: 192.168.1.0/24) sur les ports de communication dédiés :
-
-Port 8080 : Interface de communication des batteries Titan.
-
-Port 8899 : Interface de données (TCP) des micro-onduleurs Deye / Solarman.
-
-⚙️ Conseils pour une Stabilité Optimale
-IP Statiques : Il est vivement recommandé d'assigner des adresses IP fixes (Baux DHCP statiques) à votre batterie Titan et à votre micro-onduleur via l'interface de votre box/routeur. Cela évite de perdre la connexion lors d'un redémarrage du routeur.
-
-Isolation AP (Point d'Accès) : Vérifiez que votre routeur n'isole pas les clients Wi-Fi entre eux. L'option "AP Isolation" doit être désactivée pour que l'application puisse interroger les Smartmeters (Shelly/MR1) et la batterie.
-
-Qualité du Signal : Pour une remontée de données fluide (toutes les secondes), assurez-vous que les Smartmeters Shelly ou MR1 captent correctement votre signal Wi-Fi.
+### Licence / License  
