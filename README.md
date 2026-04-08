@@ -2,7 +2,7 @@
 _Application de monitoring local  pour les batteries Izypower Titan et micro onduelurs Deye (expérimental)
 
 --- Lien de téléchargement : https://github.com/MarcoCMG/izyTitanBuddyapk/releases/download/v0.506/IzyPowerBuddy_v0.506_BETA-signed.apk
-Atetntion : Maj auto depuis V 0.505 uniquement - Version antérieure : Désinstaller les anciennes versions avant d'installer cette version 0.506
+Attention ! Maj auto depuis V 0.505 uniquement - Version antérieure : Désinstaller les anciennes versions avant d'installer cette version 0.506
 
 ## 🇫🇷 Français  
 
